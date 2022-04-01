@@ -27,6 +27,8 @@ db = SQLAlchemy(app)
 # Models.
 #----------------------------------------------------------------------------#
 
+
+
 class Venue(db.Model):
     __tablename__ = 'Venue'
 
